@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Redux Toolkit Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Todo app built with Redux Toolkit that allows you to create, read, update, and delete todos. It's a great example of how to manage application state using Redux Toolkit in a React application.
 
-## Available Scripts
+![image](https://github.com/Mohit991/todo-app-redux/assets/36065945/a701d634-f1de-4809-a39b-04202b90ed6e)
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Create new todos
+- Read and view a list of todos
+- Update and edit existing todos
+- Delete todos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React
+- Redux Toolkit
+- React-Redux
+- JavaScript (ES6)
+- HTML5 and CSS3
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get started with this project, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Usage
+To create a new todo, click the "Add Todo" button and enter your todo text.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To edit an existing todo, click the "Edit" button next to the todo, make your changes, and click "Save."
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To delete a todo, click the "Delete" button next to the todo.
 
-### `npm run eject`
+Project Structure
+src/: Contains the source code of the Todo app.
+components/: React components used in the app.
+features/todo/todoSlice.js: Redux Toolkit slice for managing todos.
+App.js: The main application component.
+...
+Contributing
+If you would like to contribute to this project, please contact. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Author
+Mohit991
+GitHub: [your-github-profile](https://github.com/Mohit991)
+LinkedIn: https://www.linkedin.com/in/mohit-sharma17/
+Feel free to reach out if you have any questions or suggestions!
